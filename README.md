@@ -73,3 +73,9 @@
 - `POST /users/delete/:id` : Delete a specific user.
 
   **Example URL:** http://localhost:3000/user/id
+
+### How to run tests
+
+```bash
+npm run test
+```

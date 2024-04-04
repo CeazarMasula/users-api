@@ -16,7 +16,7 @@ export const createUser = async (req: express.Request, res: express.Response) =>
     users.set(id, req.body)
 
     // Return success status, message, and the added user
-    return res.status(200).json({
+    return res.status(201).json({
       message: 'User has been added',
       user: {
         id,

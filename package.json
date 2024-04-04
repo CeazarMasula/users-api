@@ -4,23 +4,31 @@
   "description": "Application that utilises RESTful API development highlighting CRUD operations with HTTP POST and GET methods",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "test": "jest"
   },
   "author": "Ceazar Masula",
   "license": "ISC",
   "dependencies": {
+    "@types/supertest": "^6.0.2",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "supertest": "^6.3.4",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.12.4",
     "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
     "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2"
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   }
 }
