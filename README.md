@@ -79,3 +79,13 @@
 ```bash
 npm run test
 ```
+
+## Route for phone combination question
+
+- `GET /phone-combination/:input` : Retrieve result of phone combination.
+
+  **Example URL:** http://localhost:3000/phone-combination/23
+
+  ```
+
+  ```
