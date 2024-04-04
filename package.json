@@ -1,0 +1,26 @@
+{
+  "name": "users_api",
+  "version": "1.0.0",
+  "description": "Application that utilises RESTful API development highlighting CRUD operations with HTTP POST and GET methods",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Ceazar Masula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.4",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
