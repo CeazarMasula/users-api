@@ -85,7 +85,3 @@ npm run test
 - `GET /phone-combination/:input` : Retrieve result of phone combination.
 
   **Example URL:** http://localhost:3000/phone-combination/23
-
-  ```
-
-  ```
