@@ -57,7 +57,7 @@
 
   **Example URL:** http://localhost:3000/user/id
 
-- `POST /users/:id` : Update a specific user.
+- `POST /user/update/:id` : Update a specific user.
 
   **Example URL:** http://localhost:3000/user/update/id
 
@@ -70,9 +70,9 @@
   }
   ```
 
-- `POST /users/delete/:id` : Delete a specific user.
+- `POST /user/delete/:id` : Delete a specific user.
 
-  **Example URL:** http://localhost:3000/user/id
+  **Example URL:** http://localhost:3000/user/delete/id
 
 ### How to run tests
 
